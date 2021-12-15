@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Game</title>
+  </head>
+  <body>
+    <div id="content">
+      <script type="text/javascript">
+          var gameData = <%- JSON.stringify(sendData) -%>;
+          if (gameData) {
+            console.log(gameData)
+          }
+      </script>
+    </div>
+  </body>
+</html>
